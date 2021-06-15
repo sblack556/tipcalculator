@@ -1,0 +1,50 @@
+<!Doctype html>
+<html lang="en-us">
+
+<!--Tip Calculator Project-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--link to external CSS stylesheet-->
+        <link rel="stylesheet" href="styles/stylesheet.css">
+        
+    </head>
+    
+
+    <body>
+
+        <h1>Tip Calculator</h1>
+
+<!-- Bill input section -->
+ <label for= "Bill"  id= "bill1">Enter bill $</label>
+<input type="input" id="bill2">
+
+<p></p>
+
+<!-- Tip selection section -->
+<label for="Tip" id= "tip2">Select a tip amount</label>
+     <select id="tip" name="tip">
+        <option value="0.15" >15%</option>
+        <option value="0.18" >18%</option>
+        <option value="0.20" >20%</option> 
+      </select> 
+                      
+    <p></p>
+  
+    <!-- Calculate button -->
+    <input type="submit" value="Calculate" id="sub-button">
+
+    <p></p>
+    <p id= "results">Results</p>
+
+   <p id="tipamt">Tip Amount: </p>
+
+   <p id="totalbill">Total Bill with Tip:</p>
+   
+    <!--JavaScript Link-->        
+    <script src="scripts/myscripts.js"></script>
+
+    </body>
+</html>

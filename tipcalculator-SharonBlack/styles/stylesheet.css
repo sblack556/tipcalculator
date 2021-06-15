@@ -1,0 +1,85 @@
+
+
+/* Styling for outer border of tip calculator */
+body {
+    text-align: center;
+    width:450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border: solid black 4px;
+    border-radius: 30px;
+    border-style: double;
+
+}
+
+/* Styling for bill input section */
+#bill1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#bill2 {
+    height: 20px;
+    width: 153px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+/* Styling for tip selection section */
+#tip {
+    padding-left: 18px;
+    padding-right: 20px;
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#tip2 {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+/* Style calculate button */
+#sub-button {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    background-image: linear-gradient(rgb(199, 229, 250), rgb(201, 245, 201));
+}
+
+#results {
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: bottom;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Styling for tip amount paragraph */
+#tipamt {
+    background-color: rgb(199, 229, 250);
+    width: 75%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    height: 30px;
+    font-size: 20px;
+}
+
+/* Styling for total bill paragraph */
+#totalbill {
+    background-color: rgb(201, 245, 201);
+    width: 75%;
+    margin:auto;
+    margin-top: 0px;
+    font-weight: bold;
+    height: 30px;
+    font-size: 20px;
+}
+
+   
